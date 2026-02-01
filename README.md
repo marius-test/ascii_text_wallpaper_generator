@@ -65,6 +65,7 @@ ascii_text_wallpaper_generator/
 ├── gradient_background.py
 └── README.md
 ```
+---
 
 ### License
 
