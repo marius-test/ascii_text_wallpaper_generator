@@ -2,13 +2,13 @@ from PIL import Image, ImageDraw, ImageFont
 import pyfiglet
 
 # text and settings
-text = "Melanie"  # text to convert into ASCII art
-img_width = 1920  # width of the output image in pixels
-img_height = 1080  # height of the output image in pixels
-img_color = (0, 0, 170)  # solid background color (teal)
+text = ""  # text to convert into ASCII art
+img_width = 1080  # width of the output image in pixels
+img_height = 1920  # height of the output image in pixels
+img_color = (10, 20, 60)  # solid background color
 font_path = r"C:\\Windows\\Fonts\\courbd.ttf"  # path to font file
 font_size = 24  # font size for ASCII art rendering
-text_color = (249, 249, 249)  # light text color (near white)
+text_color = (180, 220, 255)  # light text color
 
 # generate ASCII art from the text string
 ascii_art = pyfiglet.figlet_format(text)
@@ -51,4 +51,4 @@ for line in lines:
     y_text += line_height
 
 # save the final image to disk
-img.save(r"C:\\Users\\marius\\python\\ascii_text_wallpaper_generator\\images\\ascii_vertical_wallpaper_1.png")
+img.save(r"C:\\Users\\mariu\\python\\ascii_text_wallpaper_generator\\images\\ascii_vertical_wallpaper_vertical.png")
